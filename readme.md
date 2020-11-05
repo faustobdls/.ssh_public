@@ -19,14 +19,14 @@
 
  - o resultado deve ser como abaixo, duvida? [Clique aqui para ver um video](#)
 
- ![CREATE-SSH-PAIR-KEY](https://github.com/faustobdls/.ssh_public/blob/master/images/create-ssh-pair-key.png?raw=true)
+ ![CREATE-SSH-PAIR-KEY](https://raw.githubusercontent.com/faustobdls/.ssh_public/main/images/create-ssh-pair-key.png)
 
  - uma vez criada copie os arquivos desse repositório para a mesma pasta a .ssh(linux e macos)
     - config: serve para preparar seu usuario na sua maquina pra usar configurações especificas para provedores especificos
     - `enable-ssh.sh`: fast install, vai servir para fazer uma instalação das chaves do keychain(chaveiro) do sistema e dar a elas as permissoes certas
  - sua estrutura de pastas e/ou arquivos deve estar assim
 
- ![FOLDER_STRUCT](https://github.com/faustobdls/.ssh_public/blob/master/images/folder-struct.png?raw=true)
+ ![FOLDER_STRUCT](https://raw.githubusercontent.com/faustobdls/.ssh_public/main/images/folder-struct.png?raw=true)
 
  - temos mais 3 arquivos lá dentro
     - sua chave publica e privada
