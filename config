@@ -19,3 +19,10 @@ Host gitlab.com
   AddKeysToAgent yes
   PreferredAuthentications publickey
   IdentityFile ~/.ssh/id_rsa
+
+Host bitbucket.org
+  HostName bitbucket.org
+  User git
+  UseKeychain yes
+  AddKeysToAgent yes
+  IdentityFile ~/.ssh/id_rsa
